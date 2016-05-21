@@ -1,3 +1,6 @@
+
+# Requires Nengo 1.4
+
 from __future__ import division
 import nef
 import time
