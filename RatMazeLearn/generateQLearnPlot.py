@@ -16,10 +16,10 @@ osdir = os.getcwd()  # this script is run outside of the jython environment in r
 writePrint ( 'OSDir [%s] .' % ( osdir ) )
 if osdir.find('\\') >= 0:
     OSname = 'win'
-    graphicsDir = "F:\\Peter\\Dropbox\\CS 750 - Eliasmith\\Project\\Solution\\"
+    graphicsDir = ".\\"
 else:
     OSname = 'linux'
-    graphicsDir = '/home/ctnuser/Pete/ratmaze1/'
+    graphicsDir = './'
 
 mazeX = 10
 mazeY = 10

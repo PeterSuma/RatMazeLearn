@@ -169,9 +169,6 @@ import TrainSimpleNode
 import Maze 
 
 
-# TraceData : Logger
-OneLogger = tracefilename  # set to '' if trace per object is desired, give a name (ie: 'SomeTraceFileName' ) if output to one file for all objects is desired...
-
 
 # simulation time parameter
 redrop_time = 125   # time in ms the mouse has at each position to learn the best next move
@@ -195,6 +192,10 @@ mazex = 10 # absolute width of the maze 0...mazex-1
 mazey = mazex  # absolute height of the maze 0...mazey-1
 startCell = [0,0]  # where to start from 
 cheeseCell = [mazex - 1, mazey - 1]  # where is the cheese?
+
+# TraceData : Logger
+OneLogger = tracefilename  # set to '' if trace per object is desired, give a name (ie: 'SomeTraceFileName' ) if output to one file for all objects is desired...
+#tracefilename = tracedir + '\\RatMaze_learn' + str(ttimestamp) + '_'   # trace files for .txt output of object trace messages...
 
 if OneLogger != '':
     logger = logging.getLogger( OneLogger )

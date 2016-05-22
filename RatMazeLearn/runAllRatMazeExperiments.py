@@ -16,8 +16,8 @@ else:
 if OSWin:
     OSWin = True
     os.system("F:")
-    projectdir = 'F:\\Peter\\Dropbox\\CS 750 - Eliasmith\\Project\\Solution'
-    nengoDir = 'F:\\Peter\\Dropbox\\CS 750 - Eliasmith\\Nengo\\nengo-1.4\\nengo-e6343ec'
+    projectdir = '.'
+    nengoDir = '.'
     nengoExe =  nengoDir + '\\nengo-cl'
     ratMazePy =  projectdir +  '\\RatMazeLearn14.py'
        
